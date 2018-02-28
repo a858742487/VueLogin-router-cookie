@@ -1,6 +1,23 @@
 
 ### [基于Vue.js登录页面的过程（vue-router+cookie）简单版](https://juejin.im/post/5a9511ecf265da4e95190f3b)
 基于Vue.js登录页面的过程（vue-router+cookie）简单版
+
+### 先说程序怎么跑起来 Build Setup
+
+``` bash
+# install dependencies 安装依赖
+npm install
+
+# 建议不要用cnpm安装 会有各种诡异的bug 可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
+# serve with hot reload at localhost:8080 运行程序
+npm run dev
+
+# build for production with minification 打包  
+npm run build   
+```
+
 > *   技术栈：
 > *   vue.js 主框架
 > *   vuex 状态管理
