@@ -1,5 +1,5 @@
 
-### [基于Vue.js登录页面的过程（vue-router+cookie）简单版](https://juejin.im/post/5a9511ecf265da4e95190f3b)
+### [基于Vue.js登录页面的过程（vue-router+cookie）简单版 点击查看](https://juejin.im/post/5a9511ecf265da4e95190f3b)
 基于Vue.js登录页面的过程（vue-router+cookie）简单版
 
 ### 先说程序怎么跑起来 Build Setup
