@@ -8,27 +8,7 @@ import 'element-ui/lib/theme-chalk/display.css'
 import axios from 'axios'
 import App from './App'
 import router from './router'
-import banner from './components/banner'
-import technologyMain from './components/technologyMain'
-import zhuanjiaMain from './components/zhuanjiaMain'
-import technicalDetails from './components/technicalDetails'
 
-
-import Mainindexfour from './components/index/indexboxfour'
-import hotTechnology from './components/index/hotTechnology'
-import expertIndex from './components/index/expertIndex'
-import policyIndex from './components/index/policyIndex'
-import advanback from './components/index/advanback'
-import newIndex from './components/index/newIndex'
-import numberIndex from './components/index/numberIndex'
-import bottomIndex from './components/index/bottomIndex'
-import tclBanner from './components/technology/banner'
-import fenlei from './components/technology/fenlei'
-import tabs from './components/technology/tabs'
-import zhuanjiaBanner from './components/zhuanjiaMain/zhuanjiaBanner'
-import yuanxiaoMain from './components/zhuanjiaMain/yuanxiaoMain'
-import ruzhuMainPeople from './components/zhuanjiaMain/ruzhuMainPeople'
-import technicalDetailsMain from './components/technicalDetails/technicalDetailsMain'
 
 
 
