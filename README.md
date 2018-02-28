@@ -21,7 +21,7 @@
 > 用户做出注销操作时删除登录状态。（判断cookie是否存在）
 - [ ] 1、在此之前已经写好了两个页面，假设登录页面路由为/login，登录后的路由为/userinfo。这样只需要在App.vue放好router-view用于存放和渲染这两个路由。
 
-```python
+```JavaScript
 // App.vue
 
 <template>  
@@ -32,7 +32,7 @@
 ```
 并做好vue-router配置:  
 
-```python
+```JavaScript
 // router/index.js
 
 import Vue from 'vue'import Router from 'vue-router'import login from '@/components/login'import UserInfo from '@/components/userinfo'
@@ -54,7 +54,7 @@ export default new Router({
 2.路由发生变化时；
 首先需要写好一个检查登录态的方法checkLogin：
 
-```python
+```JavaScript
 // main.js
 
 Vue.prototype.getCookie = getCookie;/* eslint-disable no-new */new Vue({  el: '#app',  router,  template: '<App/>',  components: { App, ElementUI},  watch: {
@@ -66,12 +66,12 @@ Vue.prototype.getCookie = getCookie;/* eslint-disable no-new */new Vue({  el: '#
 
 至此，我们就完成了一般过程中的第1步。(假如说有cookie登录成功了) 登录成功就跳转到 
 
-```python
+```JavaScript
 this.$router.push('/user_info');
 ```
 如果没登录成功就跳转到 Login.vue   登录页方法如下    (监测到还未登录)输入校验和发送登录请求为了防止一些不符合预期的字符和过于频繁的请求传到后台，前端要对用户的输入进行校验和防止重复请求。当然不同网站的合法字符不一样，这里只做为空时不合法的校验：
 
-```python
+```JavaScript
 
 // login.vue
 <template>  <div id="login">    <el-form ref="form" :model="form" label-width="80px">      <el-form-item label="账号">        <el-input v-model="form.name"></el-input>      </el-form-item>      <el-form-item>        <el-button type="primary" @click="login">立即登录</el-button>        <el-button>取消</el-button>      </el-form-item>    </el-form>  </div></template>
