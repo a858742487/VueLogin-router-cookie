@@ -5,7 +5,7 @@
 ### 先说程序怎么跑起来 Build Setup
 
 ``` bash
-# install dependencies 安装依赖 
+# install dependencies 安装依赖   
 npm install
 
 # 建议不要用cnpm安装 会有各种诡异的bug 可以通过如下操作解决 npm 下载速度慢的问题
