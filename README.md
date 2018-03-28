@@ -2,7 +2,7 @@
 ### [基于Vue.js登录页面的过程（vue-router+cookie）简单版 点击查看](https://juejin.im/post/5a9511ecf265da4e95190f3b)
 基于Vue.js登录页面的过程（vue-router+cookie）简单版
     
-### 先说程序怎么跑起来 Build Setup
+### 先说程序怎么跑起来 Build Setup 
 
 ``` bash
 # install dependencies 安装依赖   
@@ -34,7 +34,7 @@ npm run build  
 - [ ] 2、校检成功后发送登录请求；校检不成功则反馈给用户；
 
 - [ ] 3、登录成功则从后端数据中取出session信息保存登录状态(可能需要跳转);登录不成功则提示用户不成功；
-
+ 
 > 用户做出注销操作时删除登录状态。（判断cookie是否存在）   
 - [ ] 1、在此之前已经写好了两个页面，假设登录页面路由为/login，登录后的路由为/userinfo。这样只需要在App.vue放好router-view用于存放和渲染这两个路由。
 
