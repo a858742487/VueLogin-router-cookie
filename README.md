@@ -102,6 +102,6 @@ methods: {
 
 ```
 
-执行登录成功,跳转到 user_info.vue 就证明登录成功啦.
+执行登录成功,跳转到 user_info.vue 就证明登录成功啦.   
 
 ### 本文参考  [Vue.js写一个SPA登录页面的过程](https://www.jianshu.com/p/eff145fb815b)
